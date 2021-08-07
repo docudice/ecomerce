@@ -1,0 +1,38 @@
+<html>
+<head></head>
+<body>
+
+
+
+
+
+   <script>
+
+var $_GET = [];
+
+var parts = window.location.search.substr(1).split("&");
+if(parts.length > 0){
+
+ for (var i = 0; i < parts.length; i++) {
+ 
+  var temp = parts[i].split("=");
+  $_GET[decodeURIComponent(temp[0])] = decodeURIComponent(temp[1]);
+ }}
+
+ localStorage.removeItem($_GET.id);
+ 
+document.location.href="panier.html";
+
+
+   </script>
+
+   <a href="panier.html">retourner au panier</a>
+
+
+
+</body>
+
+
+
+
+</html>

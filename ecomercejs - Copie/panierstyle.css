@@ -1,0 +1,31 @@
+.objet {
+background-color: rgb(106, 101, 110);
+box-shadow: 2px 2px 6px black;
+height: 100px;
+
+font-size: x-large;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-right: 10px;
+justify-content: space-between;
+}
+
+.objet img{
+    width: 100px;
+    height: 100px;
+}
+
+#conteneur {
+    margin: 20px;
+   
+
+ width:90%;
+ background-color: rgb(104, 104, 112);
+}
+
+.objetname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
